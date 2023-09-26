@@ -1,0 +1,14 @@
+# debug
+debug: false
+log:
+  console:
+    level: debug
+    no_color: false
+  file:
+    level: info
+    color: false
+    filename: bin/app.log
+    max_size: 100
+    max_age: 180
+    max_backups: 10
+    compress: true
